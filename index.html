@@ -3,98 +3,122 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>メタシ音源配布所</title>
-  <link rel="stylesheet" href="css/style.css">
+  <meta name="description" content="メタシ UTAU 音源配布公式サイト。CV音源。UTF-8でインストールしてください。">
+  <meta name="keywords" content="UTAU, メタシ, CV, 音源, Voicebank, メタシ音源, UTAU音源">
+  <meta name="author" content="メタシ">
+  <meta name="google-site-verification" content="aur9S5lWnSPc9mtwwclbIxeSicgehd1FJbS9Mf6iuPc">
+  <title>メタシ UTAU 音源公式サイト</title>
+  <link rel="icon" href="images/metashi.png" type="image/png">
+  <style>
+    body {
+      font-family: "Noto Sans JP", sans-serif;
+      background-color: #fafafa;
+      color: #222;
+      margin: 0;
+      padding: 0;
+      line-height: 1.8;
+    }
+    header {
+      background-color: #fff;
+      border-bottom: 2px solid #e5e5e5;
+      text-align: center;
+      padding: 40px 20px;
+    }
+    h1 {
+      font-size: 2rem;
+      margin-bottom: 0.2em;
+    }
+    main {
+      max-width: 800px;
+      margin: 40px auto;
+      padding: 0 20px;
+      background: #fff;
+      border-radius: 16px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+    }
+    section {
+      padding: 20px 0;
+      border-bottom: 1px solid #eee;
+    }
+    section:last-child {
+      border-bottom: none;
+    }
+    h2 {
+      font-size: 1.4rem;
+      margin-bottom: 10px;
+      color: #444;
+    }
+    a {
+      color: #0078d7;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    footer {
+      text-align: center;
+      padding: 40px 20px;
+      background-color: #fff;
+      border-top: 2px solid #e5e5e5;
+      color: #555;
+      font-size: 0.95rem;
+    }
+  </style>
 </head>
+
 <body>
+  <header>
+    <img src="images/metashi.png" alt="メタシ Icon" style="width:90px; height:auto; border-radius:50%; margin-bottom:10px;">
+    <h1>メタシ UTAU 音源公式サイト</h1>
+    <p>CV音源｜UTF-8でインストールしてください</p>
+  </header>
 
-<header>
-  <h1>メタシ音源配布所</h1>
-  <p>UTAU CV日本語音源 / 制作者：Metashi</p>
-</header>
+  <main>
+    <section>
+      <h2>🎤 音源について</h2>
+      <p>この音源はUTAU用のCV音源です。UTF-8でインストールしないと文字化けする可能性があります。</p>
+      <p>自由に歌わせたり、DSPで公開することが可能です。</p>
+      <p>例: 「アーティスト名 (feat. メタシ)」の形で公開できます。</p>
+    </section>
 
-<nav>
-  <a href="#about">概要</a>
-  <a href="#install">インストール</a>
-  <a href="#download">配布</a>
-  <a href="#terms">利用規約</a>
-  <a href="#updates">更新履歴</a>
-</nav>
+    <section>
+      <h2>📥 ダウンロード</h2>
+      <p>最新バージョンはこちらからダウンロードしてください。</p>
+      <p><a href="download.zip">▶ メタシ音源をダウンロード</a></p>
+      <p>更新情報はこのサイトで随時お知らせします。</p>
+    </section>
 
-<main>
+    <section>
+      <h2>📜 利用規約</h2>
+      <ul>
+        <li>この音源は非商用・商用どちらでも使用可能です。</li>
+        <li>作品を公開する際は「メタシ」とクレジットしてください。</li>
+        <li>再配布・改変配布は禁止です。</li>
+        <li>不適切な内容を含む作品での使用は禁止です。</li>
+      </ul>
+    </section>
 
-  <section id="about">
-    <h2>概要</h2>
-    <img src="images/metashi.png" alt="メタシ" class="character">
-    <p>
-      「メタシ」は柔らかく落ち着いた少年系の声を持つ日本語CV音源です。<br>
-      UTAUおよびOpenUtauに対応しています。<br><br>
-      ナチュラルなトーンで、穏やかな曲や語りにも適しています。
-    </p>
-  </section>
+    <section>
+      <h2>🛠 インストール方法</h2>
+      <ol>
+        <li>ZIPファイルを解凍します。</li>
+        <li>フォルダをUTAUの音源フォルダに配置します。</li>
+        <li>文字化けを防ぐため、<strong>UTF-8</strong>でインストールしてください。</li>
+      </ol>
+    </section>
 
-  <section id="install">
-    <h2>インストール方法</h2>
-    <p>
-      1️⃣ ダウンロードしたZIPを解凍してください。<br>
-      2️⃣ フォルダをUTAUの「voice」フォルダ内にコピーします。<br>
-      3️⃣ **必ずシステムの文字コードをUTF-8に設定してください。**<br>
-      （Shift_JISのままだと「文字化け」が発生します。）<br>
-      4️⃣ UTAUを再起動し、「メタシ」が一覧に表示されているか確認します。
-    </p>
-    <p style="color:#d32f2f; font-weight:bold;">
-      ⚠ 注意：UTF-8設定を行わないと、音源名やファイル名が正しく表示されません。
-    </p>
-  </section>
+    <section>
+      <h2>🆕 更新情報</h2>
+      <p>Ver.1.0 — 初回リリース</p>
+      <p>以降の更新はこのページでお知らせします。</p>
+    </section>
+  </main>
 
-  <section id="download">
-    <h2>音源配布</h2>
-    <p>
-      📦 録音形式：CV<br>
-      🧩 言語：日本語<br>
-      🎧 推奨エンジン：tn_fnds / resampler.exe<br>
-      📅 最終更新日：2025/11/09
-    </p>
-    <p>
-      🔗 <b>ダウンロード：</b><br>
-      <a href="downloads/Metashi_CV_JP.zip" download>こちらからダウンロード</a>
-    </p>
-  </section>
-
-  <section id="terms">
-    <h2>利用規約</h2>
-    <p>
-      【利用について】<br>
-      ・非営利利用は自由です。<br>
-      ・営利利用（配信サービスへの楽曲登録など）も可能です。<br>
-      ・配信時はクレジットを明記してください。例：〇〇（feat. メタシ）<br>
-      ・声質やキャラクターデザインの改変は禁止します。<br>
-      ・二次配布は禁止します。<br>
-      ・R-18、暴力的、差別的な内容での使用は禁止します。<br>
-      ・ファンアートやカバー作品は歓迎します！<br><br>
-      【連絡先】<br>
-      制作者：Metashi<br>
-    </p>
-  </section>
-
-  <section id="updates">
-    <h2>更新履歴</h2>
-    <p>
-      2025/11/09　Ver.1.0 公開<br>
-      ・初版配布開始
-    </p>
-  </section>
-
-</main>
-
-<footer>
-  © 2025 Metashi — メタシ音源配布所
-</footer>
-
-</body>
-</html>
-
-</footer>
-
+  <footer>
+    <h2>📫 連絡先 (Contato)</h2>
+    <p>音源やサイトに関するお問い合わせは、以下のメールアドレスまでご連絡ください。</p>
+    <p><strong>Email:</strong> <a href="mailto:metashi@icloud.com">metashi@icloud.com</a></p>
+    <p>© 2025 メタシ | UTAU 音源配布</p>
+  </footer>
 </body>
 </html>
